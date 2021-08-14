@@ -18,3 +18,9 @@
     color: white;
     font-family: monospace;
 }
+
+* {
+    font-family: monospace;
+    background-color: black;
+    color: white;
+}
