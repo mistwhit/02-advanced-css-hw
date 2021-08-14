@@ -37,7 +37,7 @@ body {
 
 /*Text positioned over images*/
 /*https://www.tutorialrepublic.com/codelab.php?topic=faq&file=placing-text-over-an-image-with-css*/
-.box{
+.box {
     position: relative;
     display: inline-block; /* Make the width of box same as image */
 }
@@ -49,9 +49,10 @@ body {
     right: 0;        
     text-align: center;
     top: 50%; /* Adjust this value to move the positioned div up and down */
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.418);
     color: #fff;
     width: 20%; /* Set the width of the positioned div */
     border: solid white;
     border-width: 2px;
+    padding: 4px;
 }
