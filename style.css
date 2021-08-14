@@ -1,17 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*Avatar*/
 .avatar {
     height: 100px;
     width: 100px;
     border-radius: 50%;
 }
 
+
+/*Work section Flex Container*/
+
+/*Work section images*/
 .projectPicture {
     position: relative;
+    margin: 0 auto;
 }
 
+/*Work section text displayed over images*/
 .projectText {
     position: absolute;
     bottom: 32px;
-    left: 32px;
+    left: 500px;
     border: white;
     border-style: solid;
     padding: 4px;
@@ -19,8 +35,7 @@
     font-family: monospace;
 }
 
-* {
-    font-family: monospace;
-    background-color: black;
-    color: white;
+/*Footer/Contact Me*/
+li {
+    list-style-type: none;
 }
