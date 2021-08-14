@@ -14,28 +14,14 @@ body {
     border-radius: 50%;
 }
 
-
-/*Work section Flex Container*/
-
-/*Work section images*/
-.projectPicture {
-    position: relative;
-    margin: 0 auto;
+@media screen and (max-width: 425px) {
+    img {
+        width: 75%;
+    }
 }
 
-/*Work section text displayed over images*/
-.projectText {
-    position: absolute;
-    bottom: 32px;
-    left: 500px;
-    border: white;
-    border-style: solid;
-    padding: 4px;
-    color: white;
-    font-family: monospace;
-}
-
-/*Footer/Contact Me*/
-li {
-    list-style-type: none;
+@media screen and (max-width: 768px) {
+    img {
+        width: 75%;
+    }
 }
