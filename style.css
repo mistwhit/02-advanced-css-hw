@@ -48,8 +48,10 @@ body {
     left: 0;
     right: 0;        
     text-align: center;
-    top: 40%; /* Adjust this value to move the positioned div up and down */
+    top: 50%; /* Adjust this value to move the positioned div up and down */
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
     width: 20%; /* Set the width of the positioned div */
+    border: solid white;
+    border-width: 2px;
 }
