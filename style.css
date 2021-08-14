@@ -3,3 +3,18 @@
     width: 100px;
     border-radius: 50%;
 }
+
+.projectPicture {
+    position: relative;
+}
+
+.projectText {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    border: white;
+    border-style: solid;
+    padding: 4px;
+    color: white;
+    font-family: monospace;
+}
