@@ -25,3 +25,9 @@ body {
         width: 75%;
     }
 }
+
+@media screen and (max-width: 2560px) {
+    img {
+        width: 75%;
+    }
+}
