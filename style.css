@@ -14,20 +14,42 @@ body {
     border-radius: 50%;
 }
 
+/*Media query for mobile devices*/
 @media screen and (max-width: 425px) {
     img {
-        width: 75%;
+        width: 80%;
     }
 }
 
+/*Media query for tablets*/
 @media screen and (max-width: 768px) {
     img {
         width: 75%;
     }
 }
 
+/*Media query for large monitors*/
 @media screen and (max-width: 2560px) {
     img {
-        width: 75%;
+        width: 70%;
     }
+}
+
+/*Text positioned over images*/
+/*https://www.tutorialrepublic.com/codelab.php?topic=faq&file=placing-text-over-an-image-with-css*/
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 20%; /* Set the width of the positioned div */
 }
