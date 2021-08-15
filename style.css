@@ -35,24 +35,35 @@ body {
     }
 }
 
-/*Text positioned over images*/
+/*Text positioned over Work/Project images*/
 /*https://www.tutorialrepublic.com/codelab.php?topic=faq&file=placing-text-over-an-image-with-css*/
-.box {
+.project {
     position: relative;
-    display: inline-block; /* Make the width of box same as image */
+    display: inline-block;
 }
-.box .text{
+.project .title {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
     left: 0;
     right: 0;        
     text-align: center;
-    top: 50%; /* Adjust this value to move the positioned div up and down */
+    top: 50%; 
     background: rgba(0, 0, 0, 0.418);
-    color: #fff;
-    width: 20%; /* Set the width of the positioned div */
+    color: white;
+    width: 50%; 
     border: solid white;
     border-width: 2px;
     padding: 4px;
+}
+
+#project1 {
+    width: 75%;
+    height: 75%;
+}
+
+#projects2and3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
