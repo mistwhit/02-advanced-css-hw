@@ -35,12 +35,12 @@ body {
     }
 }
 
-/*Text positioned over Work/Project images*/
-/*https://www.tutorialrepublic.com/codelab.php?topic=faq&file=placing-text-over-an-image-with-css*/
 .project {
     position: relative;
     display: inline-block;
 }
+
+/*Text positioned over Project images*/
 .project .title {
     position: absolute;
     z-index: 999;
