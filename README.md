@@ -1,4 +1,4 @@
-# Professional Portfolio - Homework 2
+# Professional Portfolio
 
 ## Description
 - My motivation for this project was to create a professional portfolio so that potential employers can review samples of my work. 
