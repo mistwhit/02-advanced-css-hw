@@ -9,7 +9,7 @@
 - CSS
 
 ## Screenshot
-![Screenshot of Professional Portfolio](screencapture-mistwhit-github-io-02-advanced-css-hw.png)
+![Screenshot of Professional Portfolio](./images/screencapture-mistwhit-github-io-02-advanced-css-hw.png)
 
 ## Link
 https://mistwhit.github.io/portfolio
